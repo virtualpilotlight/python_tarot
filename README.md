@@ -1,2 +1,2 @@
 # python_tarot
-some pythong scripts for tarot card readings
+some python scripts for tarot card readings
