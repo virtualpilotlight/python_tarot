@@ -1,0 +1,15 @@
+Ask user for suit  - return tarot equivalent 
+Ask user for number - return tarot equivalent 
+Ask user it card was face up or down - return upright or inverted 
+Return card and meaning 
+
+Error handling down case for the suit, print to terminal example. Hearts, clubs, diamonds, spades
+
+Card number types numbers or letter 2-10 or j, q, k, a
+
+Use the python tarot app I already have
+Add this functionality and make an option to get the 3 card reading
+
+Type help for instructions 
+
+Import sys
