@@ -1,3 +1,5 @@
+#all cards here
+
 all_cards = [
     ["|0| - the fool - upright - folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.", "|0| - the fool - inverted - negligence, absence, distribution, carelessness, apathy, nullity, vanity."],
     ["|i| - the magician - upright - energy, potential, and the manifestation of one's desires", "|i| - the magician - inverted - unfocused, unmanifested, madness, mental distress"],
