@@ -84,5 +84,3 @@ penticles = all_cards[22:36]
 swords = all_cards[36:50]
 wands = all_cards[50:64]
 cups = all_cards[64:]
-
-print(cups)

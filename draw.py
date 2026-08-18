@@ -1,5 +1,5 @@
 import random
-from card import all_cards
+from card import all_cards, major
 from ascii import ascii_past, ascii_present, ascii_future
 
 def three_card_draw():
@@ -15,3 +15,15 @@ def three_card_draw():
     print(draw[1][present])
     print(ascii_future)
     print(draw[2][future])
+
+def one_major_draw():
+    one_card = random.sample(major, 1)
+    print(one_card)
+    print(type(one_card))
+    up_or_down = random.randint(0, 1)
+    print(up_or_down)
+    #print(one_card[up_or_down])
+    print(one_card[0])
+    print(one_card[1])
+
+one_major_draw()
