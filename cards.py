@@ -87,5 +87,8 @@ test_card = [{"card number": ("|0|")}, {"card name": ("the fool")}, {"upright": 
 print(type(test_card))
 print(type(test_card[0]))
 print(test_card[0])
+print(test_card[1])
 print(type(test_card[0]["card number"]))
 print(test_card[0]["card number"])
+for item in test_card:
+    print(item)
