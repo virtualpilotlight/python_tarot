@@ -100,8 +100,10 @@ for item in test_card:
     print(item)
 """
 
+split_test = []
 #def card_split():
 for card in all_cards:
     for face in card:
-        split_test = face.split("-")
-        print(split_test)
+        split_test += face.split(" - ")
+
+print(split_test)
