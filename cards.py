@@ -82,8 +82,14 @@ all_cards = [
 ]
 
 
-test_card = [{"card number": ("|0|")}, {"card name": ("the fool")}, {"upright": ("folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.")}, {"inverted": ("negligence, absence, distribution, carelessness, apathy, nullity, vanity.")}]
+test_card = [{
+    "card number": "|0|",
+    "card name": "the fool",
+    "upright": "folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
+    "inverted": "negligence, absence, distribution, carelessness, apathy, nullity, vanity."
+}, ["|i| - the magician - upright - energy, potential, and the manifestation of one's desires", "|i| - the magician - inverted - unfocused, unmanifested, madness, mental distress"],]
 
+"""
 print(type(test_card))
 print(type(test_card[0]))
 print(test_card[0])
@@ -92,3 +98,10 @@ print(type(test_card[0]["card number"]))
 print(test_card[0]["card number"])
 for item in test_card:
     print(item)
+"""
+
+#def card_split():
+for card in all_cards:
+    for face in card:
+        split_test = face.split("-")
+        print(split_test)
