@@ -22,3 +22,6 @@ def convert(all_cards):
 new_cards = convert(all_cards)
 
 print(new_cards)
+
+for card in new_cards:
+    print(card["card number"])

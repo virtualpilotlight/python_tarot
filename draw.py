@@ -24,6 +24,7 @@ def one_major_draw():
     print(up_or_down)
     #print(one_card[up_or_down])
     print(one_card[0])
-    print(one_card[1])
+   # print(one_card[1])
+    print(len(one_card))
 
 one_major_draw()
