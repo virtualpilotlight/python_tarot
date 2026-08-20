@@ -106,4 +106,4 @@ for card in all_cards:
     for face in card:
         split_test += face.split(" - ")
 
-print(split_test)
+#print(split_test)
