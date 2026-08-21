@@ -1,5 +1,4 @@
 import random
-#from card import all_cards, major
 from ascii import ascii_past, ascii_present, ascii_future
 from card_convert import new_cards, major
 
@@ -32,15 +31,16 @@ def three_card_draw():
     else:
         print(f"inverted: {draw[2]["inverted"]}")
 
+#three_card_draw()
+
 def one_major_draw():
     one_card = random.sample(major, 1)
-    print(one_card)
-    print(type(one_card))
     up_or_down = random.randint(0, 1)
-    print(up_or_down)
-    #print(one_card[up_or_down])
-    print(one_card[0])
-   # print(one_card[1])
-    print(len(one_card))
-
-#one_major_draw()
+    #print(one_card)
+    #print(type(one_card))
+    print(one_card[0]["card name"])
+    print(one_card[0]["card number"])
+    if up_or_down == 0:
+        print(f"upright: {one_card[0]["upright"]}")
+    else:
+        print(f"inverted: {one_card[0]["inverted"]}")

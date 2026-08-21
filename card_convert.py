@@ -1,7 +1,5 @@
 import re
-import random
 from cards import all_cards
-from ascii import ascii_past, ascii_present, ascii_future
 
 def parse_card_line(line):
     m = re.match(r"^(\|.+?\|)\s*-\s*(.+?)\s*-\s*(upright|inverted)\s*-\s*(.+)$", line.strip())
@@ -23,13 +21,10 @@ def convert(all_cards):
 
 new_cards = convert(all_cards)
 
+
 major = new_cards[0:22]
-#print(major)
+
 penticles = new_cards[22:36]
-#print(penticles)
 swords = new_cards[36:50]
-#print(swords)
 wands = new_cards[50:64]
-#print(wands)
 cups = new_cards[64:]
-#print(cups)
