@@ -80,30 +80,3 @@ all_cards = [
     ["|kc| - king of cups - upright - emotionally balanced, compassionate, diplomatic.", "|k| - king of cups - inverted - self-compassion, inner feelings, moodiness, emotionally manipulative."],
     ["|qc| - queen of cups - upright - compassionate, caring, emotionally stable, intuitive, in flow.", "|q| - queen of cups - inverted - inner feelings, self-care, self-love, co-dependency."],
 ]
-
-
-test_card = [{
-    "card number": "|0|",
-    "card name": "the fool",
-    "upright": "folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment.",
-    "inverted": "negligence, absence, distribution, carelessness, apathy, nullity, vanity."
-}, ["|i| - the magician - upright - energy, potential, and the manifestation of one's desires", "|i| - the magician - inverted - unfocused, unmanifested, madness, mental distress"],]
-
-"""
-print(type(test_card))
-print(type(test_card[0]))
-print(test_card[0])
-print(test_card[1])
-print(type(test_card[0]["card number"]))
-print(test_card[0]["card number"])
-for item in test_card:
-    print(item)
-"""
-
-split_test = []
-#def card_split():
-for card in all_cards:
-    for face in card:
-        split_test += face.split(" - ")
-
-#print(split_test)

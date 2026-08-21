@@ -1,7 +1,7 @@
 import random
-from card import all_cards, major
+#from card import all_cards, major
 from ascii import ascii_past, ascii_present, ascii_future
-from card_convert import new_cards
+from card_convert import new_cards, major
 
 def three_card_draw():
     draw = random.sample(new_cards, 3)
