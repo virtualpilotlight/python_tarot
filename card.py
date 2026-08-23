@@ -78,3 +78,11 @@ all_cards = [
     ["|kc| - king of cups - upright - emotionally balanced, compassionate, diplomatic.", "|k| - king of cups - inverted - self-compassion, inner feelings, moodiness, emotionally manipulative."],
     ["|qc| - queen of cups - upright - compassionate, caring, emotionally stable, intuitive, in flow.", "|q| - queen of cups - inverted - inner feelings, self-care, self-love, co-dependency."],
 ]
+
+"""
+major = all_cards[0:22]
+penticles = all_cards[22:36]
+swords = all_cards[36:50]
+wands = all_cards[50:64]
+cups = all_cards[64:]
+"""

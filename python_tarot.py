@@ -1,5 +1,15 @@
-from card import all_cards
-from ascii import ascii_past, ascii_present, ascii_future
-from draw import three_card_draw
+from draw import three_card_draw, one_major_draw
+from playing_to_tarot import convert_cards
 
-three_card_draw()
+
+user_input = input("Enter 1 for reading or 2 for card converter: ")
+
+while True:
+    if user_input == "1":
+        three_card_draw()
+        break
+    elif user_input == "2":
+        convert_cards()
+        break
+    else:
+        user_input = input("Please select 1 or 2 only: ")
